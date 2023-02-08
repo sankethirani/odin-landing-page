@@ -40,3 +40,40 @@ body{
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.hero{
+    display: flex;
+    background: #1F2937;
+    padding: 16px 100px;
+    gap: 16px;
+}
+
+.hero-content{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.hero-content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-content p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button{
+    background-color: #3882f6;
+}
+
+.hero-image{
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: stretch;
+}
