@@ -77,3 +77,23 @@ body{
     flex-basis: 0;
     align-self: stretch;
 }
+
+.info-image{
+    min-width: 50px;
+    min-height: 50px;
+    border: 2px solid lightblue;
+}
+
+.information-container{
+    display: flex;
+    gap: 16px;
+    padding: 8px 150px;
+}
+
+.info-block{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
