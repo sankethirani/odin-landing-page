@@ -70,6 +70,11 @@ body{
 
 .hero-button{
     background-color: #3882f6;
+    padding: 4px 16px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border:none;
+
 }
 
 .hero-image{
@@ -87,13 +92,90 @@ body{
 .information-container{
     display: flex;
     gap: 16px;
-    padding: 8px 150px;
+    padding: 8px 250px;
 }
 
 .info-block{
     display: flex;
     flex-direction: column;
-
     text-align: center;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 8px 250px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote-author{
+    text-align: right;
+    font-weight: bold;
+}
+
+.action-section{
+    display: flex;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 250px;
+    padding-inline: 48px;
+    padding-block: 16px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.action-section h2, .action-section p{
+    margin: 0;
+    padding: 0;
+}
+
+.action-section h2{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.action-section p{
+    color: #E5E7EB;
+    font-size: small;
+}
+
+.action-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+   
+}
+
+.action-button button{
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #E5E7EB;
+    padding: 4px 16px;
+    color: #E5E7EB;
+}
+
+.action-text{
+    flex-grow: 2;
+}
+
+.footer p{
+    color: #E5E7EB;
 }
 
